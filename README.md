@@ -2,7 +2,7 @@
 
 This repo contains my Sovol SV06 Plus config for use with Klipper.  
 I have exchanged the stock mainboard with a Manta M4P from BigTreeTech and I am using the CB1 to control Klipper via Mainsail.  
-The `printer.cfg` is attached. STL for the M4P case will follow (shortly).
+The `printer.cfg` is attached. STL for the M4P case [is here](case/Manta%20M4P%20Sovol%20SV06%20Mount.stl).
 
 I have modified the config found in [https://github.com/bassamanator/Sovol-SV06-firmware/tree/sv06-plus](https://github.com/bassamanator/Sovol-SV06-firmware/tree/sv06-plus)  
 (You need to get the cfgs folder from his repository.)
@@ -10,6 +10,7 @@ I have modified the config found in [https://github.com/bassamanator/Sovol-SV06-
 
 ## Contents
 
+- [Case](#case)
 - [M4P Notes](#m4p-notes)
   - [Fans](#fans)
   - [Filament Sensor](#filament-sensor)
@@ -18,6 +19,15 @@ I have modified the config found in [https://github.com/bassamanator/Sovol-SV06-
   - [Z Probe Connector](#z-probe-connector)
 - [CB1 Notes](#cb1-notes)
   - [Static IP](#set-static-ip-on-cb1)
+
+
+
+## Case
+
+I have adapted [this](https://www.printables.com/model/448123-manta-m4p-backpack) M4P case from printables to mount to the original SV06 mount points and have and egress point at the top for the flat cable that goes to the hotend. The cable is intended to be zip tied to the ledge that sticks out.    
+Additionally you can find a mounting hole for an SMA antenna next to it.
+![M4P Case for Sovol SV06](img/M4P-case.png)
+
 
 
 ## M4P Notes
